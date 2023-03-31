@@ -21,11 +21,8 @@ https.get(url,function(response){
     res.write("<h1>the temperature is currently in " + query+ " "+" "+temp+" deg celsuis</h1><br>"+"And");
     res.write("<h2>the monsoon condition in "+" "+desc+"</h2");
     res.send();
-   
-   })
+  })
 })
- 
-
 })
 
 
